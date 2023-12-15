@@ -12,8 +12,8 @@ A challenge when displaying this map was that the earth is not flat, so we canno
 where $\phi$ is the latitude.
 
 ## Usage
-To run the program, run the `ShortestPath.py` file. The file has two variables, `start` and `end`, which are the starting and ending cities, respectively. These can be changed to any two cities in the US. The program will then print the amount of nodes the path goes through, as well as the total distance of the path in miles. The path is displayed in blue, the starting city in green, and the ending city in red.
-
+To run the program, run the `ShortestPath.py` file. The file will open a tkinter interface to prompt the starting and ending city, which sould be written in the format: "CityName - StateAbbreviation" i.e: "Seattle WA" or "Miami FL". A list of all cities is available in the [csv file](data/uscities.csv) - the program will not run until both the start and end cities are valid. The program will then display the path, as well as the total distance of the path in miles in the same interface. The path is displayed in blue, the starting city in green, and the ending city in red.
+![Prompt](images/prompt.png) ![result](images/result.png)
 ## Example
 The following is an example of the program running with the starting city as Seattle, WA and the ending city as Charlotte, NC.
 

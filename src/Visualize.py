@@ -38,7 +38,7 @@ class Visualize:
             prev = next
         self.draw_point(route[0], 'green')
         self.draw_point(route[-1], 'red')
-        plt.show()
+        return plt
     
     def read_vis(self, visFile):
         with open(visFile, "r") as f:
